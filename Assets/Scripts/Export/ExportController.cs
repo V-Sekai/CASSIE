@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using VRSketch;
-using Valve.Newtonsoft.Json;
+using Newtonsoft.Json;
 
 //public enum ExportMode
 //{

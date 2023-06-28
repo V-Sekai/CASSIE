@@ -1,6 +1,5 @@
 ﻿Shader "Procedural 3D Grid Shader"
 {
-
     Subshader
     {
 
@@ -12,9 +11,8 @@
 
         Stencil
         {
-            // Only draw in places without surface patches
-            Ref 0
-            Comp Equal
+            Ref 1
+            Comp always
         }
 
         Pass

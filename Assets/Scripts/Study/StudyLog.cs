@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
-using Valve.Newtonsoft.Json;
+using Newtonsoft.Json;
 using System;
 
 namespace VRSketch
